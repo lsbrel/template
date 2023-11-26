@@ -1,9 +1,12 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<script>
+export default {
+  data() {
+    return {}
+  },
+  methods: {}
+}
 </script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <h1 class="text-uppercase">teste</h1>
+  <button class="btn btn-primary">tttt</button>
 </template>
