@@ -1,12 +1,35 @@
 <script>
-export default {
-  data() {
-    return {}
+import Calendario from '../components/calendario/Calendario.vue'
+import Carousel from '../components/home/Carousel.vue'
+import Fotos from '../components/home/Fotos.vue'
+import Depoimentos from '../components/home/Depoimentos.vue'
+import Horarios from '../components/home/Horarios.vue'
+import Footer from '../components/global/Footer.vue'
+
+export default{
+  components:{
+    Calendario,
+    Carousel,
+    Fotos,
+    Depoimentos,
+    Horarios,
+    Footer
   },
-  methods: {}
+  data(){
+    return{
+
+    }
+  },
+  methods:{
+
+  }
 }
 </script>
 <template>
-  <h1 class="text-uppercase">teste</h1>
-  <button class="btn btn-primary">tttt</button>
+  <Calendario />
+  <!-- <Carousel />
+  <Fotos />
+  <Depoimentos />
+  <Horarios />
+  <Footer /> -->
 </template>
