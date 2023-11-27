@@ -23,9 +23,9 @@ export default {
 </script>
 <template>
   <!-- <Calendario /> -->
-  <!-- <Carousel /> -->
-  <!-- <Fotos /> -->
-  <!-- <Depoimentos /> -->
+  <Carousel />
+  <Fotos />
+  <Depoimentos />
   <Horarios />
   <Footer />
 </template>
