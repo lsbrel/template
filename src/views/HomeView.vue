@@ -24,8 +24,8 @@ export default {
 <template>
   <!-- <Calendario /> -->
   <Carousel />
-  <Fotos />
   <Depoimentos />
+  <Fotos />
   <Horarios tipo="widget" />
   <Footer />
 </template>
