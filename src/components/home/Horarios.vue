@@ -3,7 +3,7 @@ import Server from '../../api/Server'
 
 export default {
   props: {
-    page: Boolean
+    tipo: String
   },
   data() {
     return {
@@ -30,7 +30,17 @@ export default {
     }
   },
   methods: {},
-  async created() {}
+  async created() {
+    if (this.tipo == 'widget') {
+      this.classePage = {
+        'horarios row row-cols-3 justify-content-center gap-2 mt-5': true
+      }
+    } else {
+      this.classePage = {
+        'horarios row row-cols-2 justify-content-center gap-1 mt-2': true
+      }
+    }
+  }
 }
 </script>
 <template>

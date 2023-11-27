@@ -22,7 +22,7 @@ export default {
         hiddenDays: [0], // Removendo domingos
         slotMinTime: '08:00:00',
         slotDuration: '01:00:00',
-        height: 550,
+        height: 650,
         allDaySlot: false,
         locale: 'pt',
         slotLabelFormat: {

@@ -26,6 +26,6 @@ export default {
   <Carousel />
   <Fotos />
   <Depoimentos />
-  <Horarios />
+  <Horarios tipo="widget" />
   <Footer />
 </template>

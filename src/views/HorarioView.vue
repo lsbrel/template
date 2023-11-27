@@ -12,5 +12,5 @@ export default {
 }
 </script>
 <template>
-    <Horarios />
+    <Horarios tipo="page"/>
 </template>
