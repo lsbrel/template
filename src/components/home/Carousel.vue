@@ -1,6 +1,6 @@
 <script>
-import ItemPequeno from '../../components/carousel/Item-pequeno.vue'
-import ItemMedio from '../../components/carousel/item-medio.vue'
+import ItemPequeno from '../carousel/Item-pequeno.vue'
+import ItemMedio from '../carousel/Item-medio.vue'
 
 export default {
   components: {

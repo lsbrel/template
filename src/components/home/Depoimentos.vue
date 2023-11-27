@@ -29,8 +29,3 @@
     </div>
   </TransitionGroup>
 </template>
-<style>
-.depoimentos {
-  height: 50vh;
-}
-</style>

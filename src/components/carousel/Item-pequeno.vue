@@ -17,7 +17,7 @@
         <p class="card-text">Last updated 3 mins ago</p>
       </div>
     </div>
-    <span class="d-flex flex-row gap-1 w-100 h-100">
+    <span class="d-flex flex-row gap-1 w-100 h-50">
       <div
         class="d-flex flex-column h-100 w-50 bg-white text-dark rounded-1 p-4 border border-1 shadow shadow-sm"
       >
@@ -25,8 +25,7 @@
         <hr class="mt-0" />
         <p>
           Chute a tristeza para longe e venha ser feliz no nosso campo de futebol society! Aqui,
-          alegria e diversão são os craques principais. Junte-se a nós e faça parte do time da
-          felicidade!
+          alegria e diversão são os craques principais.
         </p>
       </div>
       <!-- dois -->
@@ -37,8 +36,7 @@
         <hr class="mt-0" />
         <p>
           Chute a tristeza para longe e venha ser feliz no nosso campo de futebol society! Aqui,
-          alegria e diversão são os craques principais. Junte-se a nós e faça parte do time da
-          felicidade!
+          alegria e diversão são os craques principais.
         </p>
       </div>
     </span>

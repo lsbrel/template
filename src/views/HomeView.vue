@@ -22,10 +22,10 @@ export default {
 }
 </script>
 <template>
-  <!-- <Calendario /> -->
   <Carousel />
   <Depoimentos />
   <Fotos />
+  <hr class="w-75 mx-auto">
   <Horarios tipo="widget" />
   <Footer />
 </template>

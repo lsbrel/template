@@ -1,11 +1,7 @@
 <script></script>
 <template>
-    <div class="footer d-flex flex-col">
-        footer
-    </div>
+  <!-- Copyright -->
+  <hr class="w-75 mx-auto" />
+  <div class="text-center p-3">@ mundiflos</div>
+  <!-- Copyright -->
 </template>
-<style>
-.footer{
-    height: 30vh;
-}
-</style>
