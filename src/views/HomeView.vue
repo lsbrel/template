@@ -26,10 +26,10 @@ export default{
 }
 </script>
 <template>
-  <Calendario />
-  <!-- <Carousel />
-  <Fotos />
-  <Depoimentos />
+  <!-- <Calendario /> -->
+  <!-- <Carousel /> -->
+  <!-- <Fotos /> -->
+  <!-- <Depoimentos /> -->
   <Horarios />
-  <Footer /> -->
+  <!-- <Footer /> -->
 </template>

@@ -7,8 +7,14 @@ import Menu from './components/global/Menu.vue'
   <div class="container-fluid">
     <div class="row">
       <div class="col">
+        <!-- MENU FIXO -->
         <Menu></Menu>
-        <RouterView />
+        <!-- PAGINAS -->
+        <router-view v-slot="{ Component }">
+          <transition>
+            <component :is="Component" />
+          </transition>
+        </router-view>
       </div>
     </div>
   </div>
