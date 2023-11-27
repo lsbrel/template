@@ -1,4 +1,12 @@
-<script></script>
+<script>
+export default{
+  methods:{
+    goTo(rota){
+      this.$router.push(rota)
+    }
+  }
+}
+</script>
 <template>
   <span class="d-flex flex-column-reverse w-50 h-100 gap-2 shadow shadow-sm">
     <div class="card h-50 bg-dark text-white">
@@ -30,6 +38,7 @@
       </div>
       <!-- dois -->
       <div
+      @click="goTo('/tabela')"
         class="d-flex flex-column h-100 w-50 bg-white text-dark rounded-1 p-4 border border-1 shadow shadow-sm"
       >
         <h4>Tabela Desafio</h4>
