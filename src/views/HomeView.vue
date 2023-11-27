@@ -6,8 +6,8 @@ import Depoimentos from '../components/home/Depoimentos.vue'
 import Horarios from '../components/home/Horarios.vue'
 import Footer from '../components/global/Footer.vue'
 
-export default{
-  components:{
+export default {
+  components: {
     Calendario,
     Carousel,
     Fotos,
@@ -15,14 +15,10 @@ export default{
     Horarios,
     Footer
   },
-  data(){
-    return{
-
-    }
+  data() {
+    return {}
   },
-  methods:{
-
-  }
+  methods: {}
 }
 </script>
 <template>
@@ -31,5 +27,5 @@ export default{
   <!-- <Fotos /> -->
   <!-- <Depoimentos /> -->
   <Horarios />
-  <!-- <Footer /> -->
+  <Footer />
 </template>

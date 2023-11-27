@@ -2,18 +2,25 @@
 import Server from '../../api/Server'
 
 export default {
+  props: {
+    page: Boolean
+  },
   data() {
     return {
+      classePage: {
+        'horarios row row-cols-3 justify-content-center gap-2 mt-5': true
+      },
       dias: [
         'segunda-feira',
         'terça-feira',
         'quarta-feira',
         'quinta-feira',
         'sexta-feira',
-        'sabado'
+        'sábado'
       ],
       horarios: [
         {
+          id: 0,
           nome: 'Disponivel',
           obs: 'observacao',
           dia: '14/07/2024',
@@ -27,7 +34,7 @@ export default {
 }
 </script>
 <template>
-  <div class="horarios row row-cols-3 justify-content-center gap-5 mt-5">
+  <div :class="classePage">
     <div v-for="dia in dias" class="card mb-3 p-3">
       <img
         class="card-img-top w-25"
@@ -36,16 +43,26 @@ export default {
       />
       <div class="card-body">
         <h5 class="card-title text-capitalize">{{ dia }}</h5>
-        <div v-for="(horario, index) in 4" class="card-text flex flex-column">
-          <label>{{ horarios[0].hora + index }}:00 - {{ horarios[0].nome }}</label>
+        <p class="card-text"><small class="text-muted">01/07/2024</small></p>
+        <hr />
+        <div v-for="(horario, index) in 4" class="card-text flex flex-column w-100">
+          <div
+            v-if="horario.id == 0"
+            class="item-horario w-100 bg-secondary rounded text-white mt-2"
+          >
+            {{ horarios[0].hora + index }}:00 - {{ horarios[0].nome }}
+          </div>
+          <div v-else class="item-horario w-100 bg-success rounded-1 text-white mt-2">
+            {{ horarios[0].hora + index }}:00 - {{ horarios[0].nome }}
+          </div>
         </div>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text"><small class="text-muted">*** Sujeito a alterações</small></p>
       </div>
     </div>
   </div>
 </template>
 <style>
-.horarios {
-  height: 80vh;
+.item-horario {
+  height: 2rem !important;
 }
 </style>
