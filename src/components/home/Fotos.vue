@@ -54,7 +54,7 @@ export default {
       >
         <label>{{ imagem.nome }}</label>
         <img src="" alt="imagens" />
-    </button>
+      </button>
     </div>
   </div>
 </template>
