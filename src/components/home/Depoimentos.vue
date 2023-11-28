@@ -1,13 +1,15 @@
 <script></script>
 <template>
   <TransitionGroup>
-    <div class="depoimentos d-flex flex-column align-items-center mb-5">
-      <h3 class="text-capitalize text-bold mt-5 font-weight-bol">Clientes</h3>
-      <hr class="w-50 mx-auto" />
-      <div class="d-flex flex-row gap-4 p-5 justify-content-center">
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="text-capitalize text-bold mt-5 mb-3 text-center">Clientes</h3>
+        <hr class="w-50 mx-auto">
+      </div>
+      <div class="row justify-content-lg-between">
         <div
           v-for="(item, index) in 3"
-          class="d-flex flex-column h-100 w-25 bg-white text-dark rounded-1 p-5 border border-1 shadow shadow-sm"
+          class="col-10 col-lg-3 bg-white text-dark rounded-1 p-5 mx-auto mb-4 border border-1 shadow shadow-sm"
         >
           <h4>Pessoa {{ index }}</h4>
           <hr class="mt-0" />
