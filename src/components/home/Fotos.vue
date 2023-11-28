@@ -19,9 +19,9 @@ export default {
 }
 </script>
 <template>
-  <div class="container">
-    <div class="row row-cols-2">
-      <div class="col">
+  <div class="container-fluid">
+    <div class="row row-cols-2 p-4">
+      <div class="col-12 col-lg-6 mb-4">
         <h5 class="text-capitalize">marque seu horario</h5>
         <hr />
         <p>
@@ -31,7 +31,7 @@ export default {
         </p>
         <button class="btn btn-success">Entre em contato</button>
       </div>
-      <div class="col">
+      <div class="col-12 col-lg-6 mb-4">
         <div class="card h-100 bg-dark text-white">
           <img
             class="card-img h-100 w-100"
