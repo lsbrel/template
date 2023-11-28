@@ -8,8 +8,8 @@ export default{
 }
 </script>
 <template>
-  <span class="d-flex flex-column-reverse w-50 h-100 gap-2 shadow shadow-sm">
-    <div class="card h-50 bg-dark text-white">
+  <span class="container-fluid shadow shadow-sm">
+    <div class="card h-50 text-white">
       <img
         class="card-img h-100 w-100"
         src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fd%2Fd3%2FSoccer_goalkeeper.jpg&f=1&nofb=1&ipt=50f09601332ff8eb102e6671f08a5e93b8a89c74c3810cb0de56e419c54de84c&ipo=images"

@@ -13,11 +13,18 @@ export default {
 }
 </script>
 <template>
-  <div class="carousel d-flex flex-row w-100 p-4 gap-2 mt-2">
-    <!-- ITEM MEDIO -->
-    <ItemMedio />
-    <!-- ITEM PEQUENO -->
-    <ItemPequeno />
+  <div class="container-fluid">
+    <div class="row p-4 justify-content-lg-between">
+      <div class="col-12 col-lg-6">
+        <!-- ITEM MEDIO -->
+        <ItemMedio />
+      </div>
+      <div class="col-12 col-lg-6">
+        <ItemPequeno />
+      </div>
+      <!-- ITEM PEQUENO -->
+      <!-- </div> -->
+    </div>
   </div>
 </template>
 <style>
