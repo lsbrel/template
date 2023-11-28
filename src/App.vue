@@ -6,10 +6,12 @@ import Menu from './components/global/Menu.vue'
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col">
+      <div class="col-sm-12">
         <!-- MENU FIXO -->
         <Menu></Menu>
-        <!-- PAGINAS -->
+      </div>
+      <!-- PAGINAS -->
+      <div class="col-sm-12">
         <router-view v-slot="{ Component }">
           <transition>
             <component :is="Component" />
